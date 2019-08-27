@@ -1,9 +1,8 @@
-const haml        = require('haml')
+const haml = require('hamljs')
 const loaderUtils = require('loader-utils')
 
 module.exports = function (source) {
-  var html
-
+  let html
   try {
     html = haml.render(source, loaderUtils.getOptions(this))
   } catch (e) {
