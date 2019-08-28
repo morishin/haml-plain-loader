@@ -5,18 +5,18 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RyanScottLewis/haml-plain-loader.git"
+    "url": "https://github.com/morishin/haml-plain-loader.git"
   },
   "author": {
     "name": "Ryan Scott Lewis"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RyanScottLewis/haml-plain-loader/issues"
+    "url": "https://github.com/morishin/haml-plain-loader/issues"
   },
-  "homepage": "https://www.npmjs.com/package/haml-plain-loader",
+  "homepage": "https://github.com/morishin/haml-plain-loader",
   "dependencies": {
-    "haml": "^0.4.3",
+    "hamljs": "^0.6.2",
     "loader-utils": "^1.1.0"
   }
 }
